@@ -1,7 +1,7 @@
 import {User, UserInfo} from 'firebase/app';
 import {Observable, of, pipe, UnaryFunction} from 'rxjs';
 import {switchMap} from 'rxjs/operators';
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 
 /**
  * Operator to map firebase.User to firebase.UserInfo.
